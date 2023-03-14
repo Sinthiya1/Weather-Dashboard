@@ -77,8 +77,8 @@ function displayData(city, state) {
         $(todays_weather).append( title, dt, icon_img, temp, wind, humidity );
         $( "#today" ).append( todays_weather );
         forecast(city_lat, city_lon);
-        // getLocalStorage();
-         //setLocalStorage();
+        
+         
         if(state === "exists"){
             return;
         } else {
